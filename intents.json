@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help you with Reigstering, Login, Buying Crypto/Stock, Viewing Reports, Viewing Clients, Viewing Info"],
+         "context": [""]
+        },
+        {"tag": "buying",
+         "patterns": ["How do I buy stock?", "How do I buy?", "stock", "crypto", "how do I buy crypto"],
+         "responses": ["To purchase a stock/crypto you must have money in your account, then make your way to the sidebar and click either Crypto or Stocks to purchase an asset"],
+         "context": [""]
+        },
+        {"tag": "register",
+         "patterns":  ["How do I register?", "Register"],
+         "responses": ["If you want to register account then click 'Don't have an account Click me', fill in your name email and password, click register"],
+         "context": [""]
+        },
+        {"tag": "login",
+         "patterns": ["How do I login", "login"],
+         "responses": ["To login enter you can either use social login or email, in order to use social login click on google and login via your google account, otherwise enter your email and password and press login"],
+         "context": [""]
+        },
+        {"tag": "view_report",
+         "patterns": ["How do view a report?", "financial report?", "how do I see the financial reports?"],
+         "responses": ["To see the financial reports make your way to the sidebar and click Reports"],
+         "context": [""]
+        },
+        {"tag": "view_clients",
+         "patterns": ["How do view my clients?", "client", "how do I see my clients?"],
+         "responses": ["To see your clients make your way to the sidebar and click Clients"],
+         "context": [""]
+        },
+        {"tag": "view_info",
+         "patterns": ["How do I see my information?", "broker", "how do I see my broker information?"],
+         "responses": ["To see your broker information make your way to the sidebar and click Broker"],
+         "context": [""]
+        }
+   ]
+}
